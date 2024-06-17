@@ -1,0 +1,66 @@
+/* All colors are updated from colors.json, others are just fallback*/
+:root {
+    /* Colors */
+    --desc-color: black;
+    --btn-color: black;
+    --primarybtnbg-color: black;
+    --secondarybtnbg-color: black;
+    --testimonialsbg-color: black;
+    --btnstr-color: black;
+    --navbg-color: black;
+    --herotxt-color: black;
+    --carouselcircle-color: black; 
+
+    /* Fonts */
+    --main-font: 'Figtree';
+    --logo-font: 'JacquesFrancois'
+}
+
+@font-face {
+    font-family: 'JacquesFrancois';
+    src: url('../fonts/JacquesFrancois.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('../fonts/Figtree.ttf') format('truetype');
+}
+
+/* Presets */
+
+/* Primary button */
+.primary-btn {
+    background-color: var(--primarybtnbg-color);
+    padding: 17px 47px;
+    border-radius: 5px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    text-wrap: nowrap;
+}
+.primary-btn a{
+    color: var(--btn-color);
+    font-family: var(--main-font);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+/* Secondary button */
+.secondary-btn {
+    background-color: var(--secondarybtnbg-color);
+    padding: 17px 47px;
+    border-radius: 5px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    border: solid 2px var(--btnstr-color);
+    text-wrap: nowrap;
+}
+.secondary-btn a{
+    color: var(--btn-color);
+    font-family: var(--main-font);
+    text-decoration: none;
+    font-weight: 600;
+
+}
